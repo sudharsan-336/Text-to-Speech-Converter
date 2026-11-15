@@ -1,10 +1,12 @@
 # 🔊Text To Speech Converter
 
 ## Overview
-The **Text To Speech Converter** is a simple web-based application that converts written text into spoken audio using the browser’s built-in speech synthesis feature. Users can type any text, choose a voice, and listen instantly.
+The **Text To Speech Converter** is a simple, **mobile-responsive** web-based application that converts written text into spoken audio using the browser’s built-in speech synthesis feature. Users can type any text, choose a voice, and listen instantly across both mobile and desktop devices.
+
+## Live Demo
+**View Website:** https://text-to-speech-converter-web.vercel.app/
 
 ## Features
-
 ### Text Input
 - Accepts any text entered by the user
 - Large text area for easy typing
@@ -28,9 +30,14 @@ The **Text To Speech Converter** is a simple web-based application that converts
 - **Web Speech API** → Converts text into voice
 
 ## Project Structure
-- **index.html** → Main structure of the application
-- **style.css** → Styling and responsive design
-- **script.js** → Handles voice loading and speech conversion
+```text
+Text-To-Speech-Converter/
+│
+├── index.html          # Main structure of the application
+├── style.css           # Styling and responsive design
+├── script.js           # Handles voice loading, selection, and speech conversion
+└── README.md           # Project documentation
+```
 
 ## Software Requirements
 - Any modern web browser (**Chrome, Edge, Firefox, etc.**)
